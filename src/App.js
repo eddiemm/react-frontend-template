@@ -1,11 +1,11 @@
 import './App.css';
-import { Routes } from './Routes';
+import { AppRoutes } from './AppRoutes';
 
 function App() {
   return (
     <div className="App">
       // remove default react app elements
-      <Routes />
+      <AppRoutes />
     </div>
   );
 }
